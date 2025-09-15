@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Artiste Afrobeat – Portfolio Officiel</title>
+	<meta name="description" content="Portfolio officiel d'un artiste Afrobeat : musique, clips, biographie, galerie et contact/booking.">
+	<meta name="keywords" content="Afrobeat, musique, artiste, clips, booking, concert, Spotify, YouTube">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Artiste Afrobeat – Portfolio Officiel">
+	<meta property="og:description" content="Découvrez la musique, les clips, la bio et réservez l'artiste Afrobeat.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://example.com/">
+	<meta property="og:image" content="https://example.com/cover.jpg">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Artiste Afrobeat – Portfolio Officiel">
+	<meta name="twitter:description" content="Écoutez, regardez, et contactez pour booking.">
+	<meta name="twitter:image" content="https://example.com/cover.jpg">
+
+	<!-- JSON-LD Organisation/Artist -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "MusicGroup",
+	  "name": "DJOBIS",
+	  "genre": "Afrobeat",
+	  "url": "https://example.com/",
+	  "image": "https://example.com/cover.jpg",
+	  "sameAs": [
+		"https://youtube.com/@iambalabi?si=eHQqrbF5TdurXJ9b&sub_confirmation=1",
+		"https://www.instagram.com/iambalabi?igsh=MWE4cndjdW91eHducw%3D%3D&utm_source=qr",
+		"https://www.tiktok.com/@iambalabi5",
+		"https://tr.ee/2NXJqN38EN"
+	  ],
+	  "contactPoint": {
+		"@type": "ContactPoint",
+		"contactType": "booking",
+		"email": "booking@example.com"
+	  }
+	}
+	</script>
+</head>
+<body>
+	<header class="site-header">
+		<div class="container nav-wrap">
+			<a class="brand" href="index.html#accueil" aria-label="Aller à l'accueil">
+				<img src="ChatGPT Image Jul 30, 2025 at 11_33_04 PM (1).png" alt="Logo Artiste" class="logo" />
+				<span class="brand-name">DJOBIS</span>
+			</a>
+			<button id="menuToggle" class="icon-btn" aria-label="Ouvrir le menu">☰</button>
+			<nav id="siteNav" class="site-nav">
+				<a href="index.html#accueil">Accueil</a>
+				<a href="musique.html">Musique/Vidéos</a>
+				<a href="apropos.html">À propos</a>
+				<a href="galerie.html">Galerie</a>
+			</nav>
+			<a href="contact.html" class="btn btn-primary glow header-contact">Contact</a>
+		</div>
+	</header>
+
+	<main>
+		<section id="accueil" class="hero" aria-label="Accueil">
+			<div class="hero-media" role="img" aria-label="Ambiance Afrobeat"></div>
+			<canvas id="heroParticles" class="hero-particles" aria-hidden="true"></canvas>
+			<div class="container hero-content" data-reveal>
+				<h1>Afrobeat. Énergie. Identité.</h1>
+				<p class="tagline"><strong>DJOBIS — Divine Joy Beyond Inner Silence</strong><br>Roi de l'Afrohouse - Afromood<br>Le feu. Le flow. L'étoile. Énergie spirituelle ⭐️<br>Fondateur d'IAMBALABI</p>
+				<div class="cta-group">
+					<a class="btn btn-primary glow" href="musique.html">Écouter maintenant</a>
+					<a class="btn btn-outline glass" href="contact.html">Booking</a>
+				</div>
+				<div class="social-icons" aria-label="Réseaux sociaux">
+					<a href="https://youtube.com/@iambalabi?si=eHQqrbF5TdurXJ9b&sub_confirmation=1" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube" class="icon-btn-round">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2c-.3-1.2-1.2-2.1-2.4-2.4C19.1 3.3 12 3.3 12 3.3s-7.1 0-9.1.5C1.7 4.1.8 5 0 6.2.5 8.3.5 12 .5 12s0 3.7.5 5.8c.3 1.2 1.2 2.1 2.4 2.4 2 .5 9.1.5 9.1.5s7.1 0 9.1-.5c1.2-.3 2.1-1.2 2.4-2.4.5-2.1.5-5.8.5-5.8s0-3.7-.5-5.8zM9.6 15.5V8.5L15.8 12l-6.2 3.5z"/></svg>
+					</a>
+					<a href="https://www.instagram.com/iambalabi?igsh=MWE4cndjdW91eHducw%3D%3D&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram" class="icon-btn-round">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.2 2.4.4.6.2 1 .5 1.4.9.4.4.7.9.9 1.4.2.5.3 1.2.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.9-.4 2.4-.2.6-.5 1-.9 1.4-.4.4-.9.7-1.4.9-.5.2-1.2.3-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.2-2.4-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.9-.9-1.4-.2-.5-.3-1.2-.4-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.9.4-2.4.2-.6.5-1 .9-1.4.4-.4.9-.7 1.4-.9.5-.2 1.2-.3 2.4-.4C8.4 2.2 8.8 2.2 12 2.2m0-2.2C8.7 0 8.3 0 7 0 5.7.1 4.8.2 4 .5 3 .8 2.2 1.3 1.4 2.1.6 2.9.1 3.7 0 4.8c-.3.8-.4 1.7-.5 3C-.5 9.1-.5 9.5-.5 12s0 2.9.1 4.2c.1 1.3.2 2.2.5 3 .3 1.1.8 1.9 1.6 2.7.8.8 1.6 1.3 2.7 1.6.8.3 1.7.4 3 .5 1.3.1 1.7.1 5 .1s3.7 0 5-.1c1.3-.1 2.2-.2 3-.5 1.1-.3 1.9-.8 2.7-1.6.8-.8 1.3-1.6 1.6-2.7.3-.8.4-1.7.5-3 .1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.3-.2-2.2-.5-3-.3-1.1-.8-1.9-1.6-2.7C21.9.8 21.1.3 20 .1c-.8-.3-1.7-.4-3-.5C15.7-.5 15.3-.5 12-.5z"/><path fill="currentColor" d="M12 5.8A6.2 6.2 0 1 0 12 18.2 6.2 6.2 0 1 0 12 5.8m0 10.2A4 4 0 1 1 12 7.8a4 4 0 0 1 0 8.2z"/><circle cx="18.4" cy="5.6" r="1.3" fill="currentColor"/></svg>
+					</a>
+					<a href="https://www.tiktok.com/@iambalabi5" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok" class="icon-btn-round">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 8.3c-2.2 0-4.1-1.8-4.1-4.1V3h-3.4v12.2c0 1.6-1.3 2.9-2.9 2.9S7.7 16.8 7.7 15.2s1.3-2.9 2.9-2.9c.3 0 .6.1.9.2V9.1c-.3 0-.6-.1-.9-.1-3.5 0-6.3 2.8-6.3 6.3S7.1 21.6 10.6 21.6s6.3-2.8 6.3-6.3v-4c1.1 1 2.6 1.6 4.1 1.6v-3.6z"/></svg>
+					</a>
+					<a href="https://tr.ee/2NXJqN38EN" target="_blank" rel="noopener" aria-label="Link hub" title="Tous les liens" class="icon-btn-round">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.9 12a5 5 0 0 1 1.5-3.6l3-3A5.1 5.1 0 0 1 12 3.9a5.1 5.1 0 0 1 3.6 1.5l.6.6a1 1 0 1 1-1.4 1.4l-.6-.6A3.1 3.1 0 0 0 12 5.9c-.8 0-1.6.3-2.1.9l-3 3A3.1 3.1 0 0 0 6 12c0 .8.3 1.6.9 2.1l.6.6a1 1 0 0 1-1.4 1.4l-.6-.6A5 5 0 0 1 3.9 12Zm16.2 0a5 5 0 0 0-1.5-3.6l-.6-.6a1 1 0 1 0-1.4 1.4l.6.6A3.1 3.1 0 0 1 18 12c0 .8-.3 1.6-.9 2.1l-3 3a3.1 3.1 0 0 1-2.1.9c-.8 0-1.6-.3-2.1-.9l-.6-.6a1 1 0 1 0-1.4 1.4l.6.6A5.1 5.1 0 0 0 12 20.1c1.3 0 2.6-.5 3.6-1.5l3-3a5 5 0 0 0 1.5-3.6Z"/></svg>
+					</a>
+				</div>
+
+				<!-- Notes flottantes -->
+				<div class="float-notes" aria-hidden="true">
+					<span>♪</span><span>♫</span><span>♬</span><span>♩</span><span>♭</span><span>♯</span>
+				</div>
+
+				<!-- Equalizer existant -->
+				<div class="equalizer" aria-hidden="true">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</div>
+
+			<!-- Vague sonore -->
+			<div class="soundwave glow" aria-hidden="true">
+				<svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path class="wave-path" d="M0,60 C150,20 300,100 450,60 C600,20 750,100 900,60 C1050,20 1200,100 1200,100 L1200,120 L0,120 Z"></path>
+				</svg>
+			</div>
+		</section>
+
+		<section id="afrobeat" class="section section-alt" aria-label="Qu'est-ce que l'Afrobeat?" data-reveal>
+			<div class="container cols">
+				<div>
+					<h2>Afrobeat, le pouls d'une culture</h2>
+					<p>
+						Né des années 60-70 entre Lagos et Accra, l'<strong>Afrobeat</strong> fusionne
+						les rythmes traditionnels d'Afrique de l'Ouest avec le jazz, le highlife,
+						le funk et la soul. C'est une musique de <em>transe</em>, de <em>message</em> et de <em>communion</em>,
+						où la pulsation percussive propulse les corps et élève les esprits.
+					</p>
+					<h3>Caractéristiques essentielles</h3>
+					<ul>
+						<li><strong>Rythme polyphonique</strong>: percussions entremêlées, groove hypnotique.</li>
+						<li><strong>Sections cuivres</strong>: lignes mélodiques puissantes et motifs appel-réponse.</li>
+						<li><strong>Basses chaudes</strong>: lignes profondes, ancrage du corps et du cœur.</li>
+						<li><strong>Chants engagés</strong>: identité, joie, spiritualité, fête et résistance.</li>
+					</ul>
+					<h3>Culture & danse</h3>
+					<p>
+						L'Afrobeat dépasse la scène: il est <strong>rituel</strong> et <strong>urbain</strong> à la fois.
+						Les pas s'inventent, se répondent, se partagent. Chaque performance devient un espace
+						vivant où le public co-crée l'énergie.
+					</p>
+					<blockquote class="glass" style="margin:1rem 0;padding:1rem;border-radius:12px">
+						« Le feu. Le flow. L'étoile. Énergie spirituelle. » — <strong>DJOBIS</strong>
+					</blockquote>
+					<h3>La signature de DJOBIS</h3>
+					<p>
+						DJOBIS sculpte un <strong>son afromood</strong> qui marie spiritualité et club culture:
+						textures modernes, percussions organiques, voix incantatoires et une présence scénique
+						centrée sur la <em>connexion</em> avec le public.
+					</p>
+				</div>
+				<div>
+					<div class="embed-card glass" data-reveal>
+						<p style="margin:.2rem 0 .6rem;color:var(--muted)">Extrait live (démo)</p>
+						<iframe class="yt" width="100%" height="260" src="https://www.youtube.com/embed/S7xjByaNYRs" title="Afrobeat Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					<div class="embed-card glass" data-reveal style="margin-top:.8rem">
+						<p style="margin:.2rem 0 .6rem;color:var(--muted)">Playlist Afrobeat (démo)</p>
+						<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUsuxWHRQd" width="100%" height="260" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-wrap">
+			<p>© <span id="year"></span> DJOBIS. Tous droits réservés.</p>
+			<a href="#accueil" class="back-to-top" aria-label="Retour en haut">↑</a>
+		</div>
+	</footer>
+
+	<script src="script.js" defer></script>
+</body>
+</html>
