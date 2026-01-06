@@ -111,7 +111,7 @@
 		}));
 		function step() {
 			ctx.clearRect(0,0,canvas.width,canvas.height);
-			ctx.font = '16px Poppins, sans-serif';
+			ctx.font = '16px Germania One, cursive';
 			particles.forEach(p => {
 				p.y -= p.vy;
 				p.x += Math.sin(p.phase) * 0.3;
